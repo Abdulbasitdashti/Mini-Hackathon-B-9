@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <p class="logo">Personal Blogging App</p>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+    <div class="title"><h1>Dashboard</h1></div>
+    
+    <div class="container">
+        <div class="card">
+            <form id="post_form">
+                <div class="input-post">
+                    <input id = "post_title" type="text" class="form-control" placeholder="Placeholder">
+
+                </div>
+                <div class="input-des">
+                    <textarea id="post_desc" class="form-control" rows="4" placeholder="What is in your mind"></textarea>
+                    <img id="img-user" alt="">
+                  </div>
+                  <div class="btn-field">
+                <button type="submit" id="publishBtn" class="btn btn-primary" >Publish</button>
+            </div>
+            </form>
+        </div>
+        <div class="container-body">
+
+        </div>
+
+
+        <script type="module" src="dashboard.js"></script>
+</body>
+
+</html>
